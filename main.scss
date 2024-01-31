@@ -1,0 +1,40 @@
+.conteiner{
+    border: 1px solid red;
+    max-width: 1400px;
+    height: 100px;
+    margin: 0px auto;
+}
+.navbar{
+    display: flex;
+    padding: 0px;
+}
+.navbar__logo{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.navbar__logo p{
+    font-size: 34px;
+    margin-left: 10px;
+    font-family:'Montserrat', sans-serif;
+}
+.navbar__menu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.navbar__menu{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    gap: 56px;
+    align-items: center;
+}
+.navbar__menu{
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+}
+.navbar__menu a{
+    text-decoration: none;
+    color: #000;
+}
